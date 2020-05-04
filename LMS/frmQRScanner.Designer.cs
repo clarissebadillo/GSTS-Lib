@@ -56,7 +56,7 @@
             this.gunaLinePanel1.Controls.Add(this.panel1);
             this.gunaLinePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gunaLinePanel1.LineBottom = 1;
-            this.gunaLinePanel1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.gunaLinePanel1.LineColor = System.Drawing.SystemColors.HotTrack;
             this.gunaLinePanel1.LineLeft = 1;
             this.gunaLinePanel1.LineRight = 1;
             this.gunaLinePanel1.LineStyle = System.Windows.Forms.BorderStyle.None;
@@ -79,7 +79,7 @@
             this.btnStopScan.AnimationHoverSpeed = 0.07F;
             this.btnStopScan.AnimationSpeed = 0.03F;
             this.btnStopScan.BackColor = System.Drawing.Color.Transparent;
-            this.btnStopScan.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.btnStopScan.BaseColor = System.Drawing.SystemColors.HotTrack;
             this.btnStopScan.BorderColor = System.Drawing.Color.Black;
             this.btnStopScan.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnStopScan.FocusedColor = System.Drawing.Color.Empty;
@@ -89,7 +89,7 @@
             this.btnStopScan.ImageSize = new System.Drawing.Size(20, 20);
             this.btnStopScan.Location = new System.Drawing.Point(86, 376);
             this.btnStopScan.Name = "btnStopScan";
-            this.btnStopScan.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
+            this.btnStopScan.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
             this.btnStopScan.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btnStopScan.OnHoverForeColor = System.Drawing.Color.White;
             this.btnStopScan.OnHoverImage = null;
@@ -137,7 +137,7 @@
             this.btnStartScan.AnimationHoverSpeed = 0.07F;
             this.btnStartScan.AnimationSpeed = 0.03F;
             this.btnStartScan.BackColor = System.Drawing.Color.Transparent;
-            this.btnStartScan.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.btnStartScan.BaseColor = System.Drawing.SystemColors.HotTrack;
             this.btnStartScan.BorderColor = System.Drawing.Color.Black;
             this.btnStartScan.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnStartScan.FocusedColor = System.Drawing.Color.Empty;
@@ -147,7 +147,7 @@
             this.btnStartScan.ImageSize = new System.Drawing.Size(20, 20);
             this.btnStartScan.Location = new System.Drawing.Point(86, 376);
             this.btnStartScan.Name = "btnStartScan";
-            this.btnStartScan.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
+            this.btnStartScan.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
             this.btnStartScan.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btnStartScan.OnHoverForeColor = System.Drawing.Color.White;
             this.btnStartScan.OnHoverImage = null;
@@ -176,7 +176,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.panel1.BackColor = System.Drawing.SystemColors.HotTrack;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";

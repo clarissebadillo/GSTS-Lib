@@ -50,7 +50,7 @@
             this.gunaLinePanel1.Controls.Add(this.panel1);
             this.gunaLinePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gunaLinePanel1.LineBottom = 1;
-            this.gunaLinePanel1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            this.gunaLinePanel1.LineColor = System.Drawing.SystemColors.HotTrack;
             this.gunaLinePanel1.LineLeft = 1;
             this.gunaLinePanel1.LineRight = 1;
             this.gunaLinePanel1.LineStyle = System.Windows.Forms.BorderStyle.None;
@@ -94,7 +94,7 @@
             this.btnSaveQR.AnimationHoverSpeed = 0.07F;
             this.btnSaveQR.AnimationSpeed = 0.03F;
             this.btnSaveQR.BackColor = System.Drawing.Color.Transparent;
-            this.btnSaveQR.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.btnSaveQR.BaseColor = System.Drawing.SystemColors.HotTrack;
             this.btnSaveQR.BorderColor = System.Drawing.Color.Black;
             this.btnSaveQR.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnSaveQR.FocusedColor = System.Drawing.Color.Empty;
@@ -133,7 +133,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            this.panel1.BackColor = System.Drawing.SystemColors.HotTrack;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";

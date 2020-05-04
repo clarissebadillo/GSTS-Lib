@@ -33,19 +33,19 @@
             this.dtDueDate = new System.Windows.Forms.DateTimePicker();
             this.lblStudentID = new System.Windows.Forms.Label();
             this.lblBorrowID = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblStatus = new System.Windows.Forms.Label();
             this.lblDueDate = new System.Windows.Forms.Label();
             this.lblDateBorrowed = new System.Windows.Forms.Label();
             this.lblBookName = new System.Windows.Forms.Label();
             this.gunaContextMenuStrip1 = new Guna.UI.WinForms.GunaContextMenuStrip();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.returnBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.declareLostBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.popupNotifier = new Tulpep.NotificationWindow.PopupNotifier();
             this.markSelectedBookAsDamagedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.popupNotifier = new Tulpep.NotificationWindow.PopupNotifier();
             this.gunaLinePanel2.SuspendLayout();
-            this.gunaContextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.gunaContextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // gunaLinePanel2
@@ -96,6 +96,18 @@
             this.lblBorrowID.Size = new System.Drawing.Size(0, 13);
             this.lblBorrowID.TabIndex = 8;
             this.lblBorrowID.Visible = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(9, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(28, 28);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 67;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseEnter += new System.EventHandler(this.GunaLinePanel2_MouseEnter);
+            this.pictureBox1.MouseLeave += new System.EventHandler(this.GunaLinePanel2_MouseLeave);
             // 
             // lblStatus
             // 
@@ -161,23 +173,11 @@
             this.gunaContextMenuStrip1.RenderStyle.ColorTable = null;
             this.gunaContextMenuStrip1.RenderStyle.RoundedEdges = true;
             this.gunaContextMenuStrip1.RenderStyle.SelectionArrowColor = System.Drawing.Color.White;
-            this.gunaContextMenuStrip1.RenderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.gunaContextMenuStrip1.RenderStyle.SelectionBackColor = System.Drawing.SystemColors.HotTrack;
             this.gunaContextMenuStrip1.RenderStyle.SelectionForeColor = System.Drawing.Color.White;
             this.gunaContextMenuStrip1.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
             this.gunaContextMenuStrip1.RenderStyle.TextRenderingHint = Guna.UI.WinForms.DrawingTextRenderingHint.SystemDefault;
             this.gunaContextMenuStrip1.Size = new System.Drawing.Size(247, 70);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(9, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(28, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 67;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.MouseEnter += new System.EventHandler(this.GunaLinePanel2_MouseEnter);
-            this.pictureBox1.MouseLeave += new System.EventHandler(this.GunaLinePanel2_MouseLeave);
             // 
             // returnBookToolStripMenuItem
             // 
@@ -195,17 +195,25 @@
             this.declareLostBookToolStripMenuItem.Text = "Mark Selected Book as Lost";
             this.declareLostBookToolStripMenuItem.Click += new System.EventHandler(this.DeclareLostBookToolStripMenuItem_Click);
             // 
+            // markSelectedBookAsDamagedToolStripMenuItem
+            // 
+            this.markSelectedBookAsDamagedToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("markSelectedBookAsDamagedToolStripMenuItem.Image")));
+            this.markSelectedBookAsDamagedToolStripMenuItem.Name = "markSelectedBookAsDamagedToolStripMenuItem";
+            this.markSelectedBookAsDamagedToolStripMenuItem.Size = new System.Drawing.Size(246, 22);
+            this.markSelectedBookAsDamagedToolStripMenuItem.Text = "Mark Selected Book as Damaged";
+            this.markSelectedBookAsDamagedToolStripMenuItem.Click += new System.EventHandler(this.MarkSelectedBookAsDamagedToolStripMenuItem_Click);
+            // 
             // popupNotifier
             // 
             this.popupNotifier.BodyColor = System.Drawing.Color.White;
-            this.popupNotifier.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
-            this.popupNotifier.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
-            this.popupNotifier.ButtonHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.popupNotifier.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.popupNotifier.ButtonBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.popupNotifier.ButtonHoverColor = System.Drawing.SystemColors.HotTrack;
             this.popupNotifier.ContentFont = new System.Drawing.Font("Tahoma", 10F);
             this.popupNotifier.ContentPadding = new System.Windows.Forms.Padding(5, 5, 0, 5);
             this.popupNotifier.ContentText = null;
             this.popupNotifier.GradientPower = 0;
-            this.popupNotifier.HeaderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.popupNotifier.HeaderColor = System.Drawing.SystemColors.HotTrack;
             this.popupNotifier.HeaderHeight = 10;
             this.popupNotifier.Image = global::LMS.Properties.Resources.jungkook;
             this.popupNotifier.ImagePadding = new System.Windows.Forms.Padding(10, 12, 0, 0);
@@ -217,14 +225,6 @@
             this.popupNotifier.TitleColor = System.Drawing.Color.Transparent;
             this.popupNotifier.TitleFont = new System.Drawing.Font("Segoe UI", 9F);
             this.popupNotifier.TitleText = null;
-            // 
-            // markSelectedBookAsDamagedToolStripMenuItem
-            // 
-            this.markSelectedBookAsDamagedToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("markSelectedBookAsDamagedToolStripMenuItem.Image")));
-            this.markSelectedBookAsDamagedToolStripMenuItem.Name = "markSelectedBookAsDamagedToolStripMenuItem";
-            this.markSelectedBookAsDamagedToolStripMenuItem.Size = new System.Drawing.Size(246, 22);
-            this.markSelectedBookAsDamagedToolStripMenuItem.Text = "Mark Selected Book as Damaged";
-            this.markSelectedBookAsDamagedToolStripMenuItem.Click += new System.EventHandler(this.MarkSelectedBookAsDamagedToolStripMenuItem_Click);
             // 
             // ucBooksOnHand
             // 
@@ -240,8 +240,8 @@
             this.Size = new System.Drawing.Size(610, 38);
             this.gunaLinePanel2.ResumeLayout(false);
             this.gunaLinePanel2.PerformLayout();
-            this.gunaContextMenuStrip1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.gunaContextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

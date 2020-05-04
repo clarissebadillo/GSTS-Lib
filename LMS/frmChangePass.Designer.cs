@@ -73,7 +73,7 @@
             this.gunaLinePanel1.Controls.Add(this.txtNewPass);
             this.gunaLinePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gunaLinePanel1.LineBottom = 1;
-            this.gunaLinePanel1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            this.gunaLinePanel1.LineColor = System.Drawing.SystemColors.HotTrack;
             this.gunaLinePanel1.LineLeft = 1;
             this.gunaLinePanel1.LineRight = 1;
             this.gunaLinePanel1.LineStyle = System.Windows.Forms.BorderStyle.None;
@@ -161,10 +161,10 @@
             this.txtOldPass.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtOldPass.DisabledState.Parent = this.txtOldPass;
             this.txtOldPass.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtOldPass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.txtOldPass.FocusedState.BorderColor = System.Drawing.SystemColors.HotTrack;
             this.txtOldPass.FocusedState.Parent = this.txtOldPass;
             this.txtOldPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(56)))));
-            this.txtOldPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.txtOldPass.HoverState.BorderColor = System.Drawing.SystemColors.HotTrack;
             this.txtOldPass.HoverState.Parent = this.txtOldPass;
             this.txtOldPass.Location = new System.Drawing.Point(50, 124);
             this.txtOldPass.Name = "txtOldPass";
@@ -253,7 +253,7 @@
             this.btnChangePass.AnimationHoverSpeed = 0.07F;
             this.btnChangePass.AnimationSpeed = 0.03F;
             this.btnChangePass.BackColor = System.Drawing.Color.Transparent;
-            this.btnChangePass.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.btnChangePass.BaseColor = System.Drawing.SystemColors.HotTrack;
             this.btnChangePass.BorderColor = System.Drawing.Color.Black;
             this.btnChangePass.CheckedBaseColor = System.Drawing.Color.Gray;
             this.btnChangePass.CheckedBorderColor = System.Drawing.Color.Black;
@@ -317,10 +317,10 @@
             this.txtRetypePass.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtRetypePass.DisabledState.Parent = this.txtRetypePass;
             this.txtRetypePass.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtRetypePass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.txtRetypePass.FocusedState.BorderColor = System.Drawing.SystemColors.HotTrack;
             this.txtRetypePass.FocusedState.Parent = this.txtRetypePass;
             this.txtRetypePass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(56)))));
-            this.txtRetypePass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.txtRetypePass.HoverState.BorderColor = System.Drawing.SystemColors.HotTrack;
             this.txtRetypePass.HoverState.Parent = this.txtRetypePass;
             this.txtRetypePass.Location = new System.Drawing.Point(50, 252);
             this.txtRetypePass.Name = "txtRetypePass";
@@ -340,10 +340,10 @@
             this.txtNewPass.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtNewPass.DisabledState.Parent = this.txtNewPass;
             this.txtNewPass.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtNewPass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.txtNewPass.FocusedState.BorderColor = System.Drawing.SystemColors.HotTrack;
             this.txtNewPass.FocusedState.Parent = this.txtNewPass;
             this.txtNewPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(56)))));
-            this.txtNewPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.txtNewPass.HoverState.BorderColor = System.Drawing.SystemColors.HotTrack;
             this.txtNewPass.HoverState.Parent = this.txtNewPass;
             this.txtNewPass.Location = new System.Drawing.Point(50, 188);
             this.txtNewPass.Name = "txtNewPass";

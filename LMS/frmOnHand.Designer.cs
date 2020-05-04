@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmOnHand));
             this.gunaLinePanel1 = new Guna.UI.WinForms.GunaLinePanel();
+            this.lblStudentName = new System.Windows.Forms.Label();
+            this.lblLibrarian = new System.Windows.Forms.Label();
             this.gunaLinePanel2 = new Guna.UI.WinForms.GunaLinePanel();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -42,8 +44,6 @@
             this.returnBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.declareLostBookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.popupNotifier = new Tulpep.NotificationWindow.PopupNotifier();
-            this.lblLibrarian = new System.Windows.Forms.Label();
-            this.lblStudentName = new System.Windows.Forms.Label();
             this.gunaLinePanel1.SuspendLayout();
             this.gunaLinePanel2.SuspendLayout();
             this.gunaContextMenuStrip1.SuspendLayout();
@@ -59,7 +59,7 @@
             this.gunaLinePanel1.Controls.Add(this.lblTitle);
             this.gunaLinePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gunaLinePanel1.LineBottom = 1;
-            this.gunaLinePanel1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.gunaLinePanel1.LineColor = System.Drawing.SystemColors.HotTrack;
             this.gunaLinePanel1.LineLeft = 1;
             this.gunaLinePanel1.LineRight = 1;
             this.gunaLinePanel1.LineStyle = System.Windows.Forms.BorderStyle.None;
@@ -68,6 +68,24 @@
             this.gunaLinePanel1.Name = "gunaLinePanel1";
             this.gunaLinePanel1.Size = new System.Drawing.Size(634, 359);
             this.gunaLinePanel1.TabIndex = 1;
+            // 
+            // lblStudentName
+            // 
+            this.lblStudentName.AutoSize = true;
+            this.lblStudentName.Location = new System.Drawing.Point(422, 35);
+            this.lblStudentName.Name = "lblStudentName";
+            this.lblStudentName.Size = new System.Drawing.Size(0, 13);
+            this.lblStudentName.TabIndex = 6;
+            this.lblStudentName.Visible = false;
+            // 
+            // lblLibrarian
+            // 
+            this.lblLibrarian.AutoSize = true;
+            this.lblLibrarian.Location = new System.Drawing.Point(372, 45);
+            this.lblLibrarian.Name = "lblLibrarian";
+            this.lblLibrarian.Size = new System.Drawing.Size(0, 13);
+            this.lblLibrarian.TabIndex = 5;
+            this.lblLibrarian.Visible = false;
             // 
             // gunaLinePanel2
             // 
@@ -194,14 +212,14 @@
             // popupNotifier
             // 
             this.popupNotifier.BodyColor = System.Drawing.Color.White;
-            this.popupNotifier.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
-            this.popupNotifier.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
-            this.popupNotifier.ButtonHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.popupNotifier.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.popupNotifier.ButtonBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.popupNotifier.ButtonHoverColor = System.Drawing.SystemColors.HotTrack;
             this.popupNotifier.ContentFont = new System.Drawing.Font("Tahoma", 10F);
             this.popupNotifier.ContentPadding = new System.Windows.Forms.Padding(5, 5, 0, 5);
             this.popupNotifier.ContentText = null;
             this.popupNotifier.GradientPower = 0;
-            this.popupNotifier.HeaderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.popupNotifier.HeaderColor = System.Drawing.SystemColors.HotTrack;
             this.popupNotifier.HeaderHeight = 10;
             this.popupNotifier.Image = global::LMS.Properties.Resources.jungkook;
             this.popupNotifier.ImagePadding = new System.Windows.Forms.Padding(10, 12, 0, 0);
@@ -213,24 +231,6 @@
             this.popupNotifier.TitleColor = System.Drawing.Color.Transparent;
             this.popupNotifier.TitleFont = new System.Drawing.Font("Segoe UI", 9F);
             this.popupNotifier.TitleText = null;
-            // 
-            // lblLibrarian
-            // 
-            this.lblLibrarian.AutoSize = true;
-            this.lblLibrarian.Location = new System.Drawing.Point(372, 45);
-            this.lblLibrarian.Name = "lblLibrarian";
-            this.lblLibrarian.Size = new System.Drawing.Size(0, 13);
-            this.lblLibrarian.TabIndex = 5;
-            this.lblLibrarian.Visible = false;
-            // 
-            // lblStudentName
-            // 
-            this.lblStudentName.AutoSize = true;
-            this.lblStudentName.Location = new System.Drawing.Point(422, 35);
-            this.lblStudentName.Name = "lblStudentName";
-            this.lblStudentName.Size = new System.Drawing.Size(0, 13);
-            this.lblStudentName.TabIndex = 6;
-            this.lblStudentName.Visible = false;
             // 
             // frmOnHand
             // 

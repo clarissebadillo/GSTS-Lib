@@ -100,7 +100,7 @@
             this.gunaLinePanel1.Controls.Add(this.panel1);
             this.gunaLinePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gunaLinePanel1.LineBottom = 1;
-            this.gunaLinePanel1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.gunaLinePanel1.LineColor = System.Drawing.SystemColors.HotTrack;
             this.gunaLinePanel1.LineLeft = 1;
             this.gunaLinePanel1.LineRight = 1;
             this.gunaLinePanel1.LineStyle = System.Windows.Forms.BorderStyle.None;
@@ -129,10 +129,10 @@
             this.txtSummaryRprt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtSummaryRprt.DisabledState.Parent = this.txtSummaryRprt;
             this.txtSummaryRprt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSummaryRprt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.txtSummaryRprt.FocusedState.BorderColor = System.Drawing.SystemColors.HotTrack;
             this.txtSummaryRprt.FocusedState.Parent = this.txtSummaryRprt;
             this.txtSummaryRprt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(56)))));
-            this.txtSummaryRprt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.txtSummaryRprt.HoverState.BorderColor = System.Drawing.SystemColors.HotTrack;
             this.txtSummaryRprt.HoverState.Parent = this.txtSummaryRprt;
             this.txtSummaryRprt.Location = new System.Drawing.Point(457, 452);
             this.txtSummaryRprt.Name = "txtSummaryRprt";
@@ -211,7 +211,7 @@
             this.dtPaymentDate.BorderSize = 0;
             this.dtPaymentDate.CustomFormat = "dd MMMM yyyy";
             this.dtPaymentDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dtPaymentDate.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.dtPaymentDate.FocusedColor = System.Drawing.SystemColors.HotTrack;
             this.dtPaymentDate.Font = new System.Drawing.Font("Segoe UI", 8.75F);
             this.dtPaymentDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             this.dtPaymentDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
@@ -220,7 +220,7 @@
             this.dtPaymentDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtPaymentDate.Name = "dtPaymentDate";
             this.dtPaymentDate.OnHoverBaseColor = System.Drawing.Color.Gainsboro;
-            this.dtPaymentDate.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.dtPaymentDate.OnHoverBorderColor = System.Drawing.SystemColors.HotTrack;
             this.dtPaymentDate.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             this.dtPaymentDate.OnPressedColor = System.Drawing.Color.Black;
             this.dtPaymentDate.Size = new System.Drawing.Size(223, 23);
@@ -235,7 +235,7 @@
             this.dtDueDate.BorderSize = 0;
             this.dtDueDate.CustomFormat = "dd MMMM yyyy";
             this.dtDueDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dtDueDate.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.dtDueDate.FocusedColor = System.Drawing.SystemColors.HotTrack;
             this.dtDueDate.Font = new System.Drawing.Font("Segoe UI", 8.75F);
             this.dtDueDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             this.dtDueDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
@@ -244,7 +244,7 @@
             this.dtDueDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtDueDate.Name = "dtDueDate";
             this.dtDueDate.OnHoverBaseColor = System.Drawing.Color.Gainsboro;
-            this.dtDueDate.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.dtDueDate.OnHoverBorderColor = System.Drawing.SystemColors.HotTrack;
             this.dtDueDate.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             this.dtDueDate.OnPressedColor = System.Drawing.Color.Black;
             this.dtDueDate.Size = new System.Drawing.Size(223, 23);
@@ -259,7 +259,7 @@
             this.btnPrintReceipt.AnimationHoverSpeed = 0.07F;
             this.btnPrintReceipt.AnimationSpeed = 0.03F;
             this.btnPrintReceipt.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrintReceipt.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.btnPrintReceipt.BaseColor = System.Drawing.SystemColors.HotTrack;
             this.btnPrintReceipt.BorderColor = System.Drawing.Color.Black;
             this.btnPrintReceipt.CheckedBaseColor = System.Drawing.Color.Gray;
             this.btnPrintReceipt.CheckedBorderColor = System.Drawing.Color.Black;
@@ -275,7 +275,7 @@
             this.btnPrintReceipt.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
             this.btnPrintReceipt.Location = new System.Drawing.Point(567, 487);
             this.btnPrintReceipt.Name = "btnPrintReceipt";
-            this.btnPrintReceipt.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(56)))));
+            this.btnPrintReceipt.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
             this.btnPrintReceipt.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btnPrintReceipt.OnHoverForeColor = System.Drawing.Color.White;
             this.btnPrintReceipt.OnHoverImage = null;
@@ -319,7 +319,7 @@
             this.btnPrintInvoice.AnimationHoverSpeed = 0.07F;
             this.btnPrintInvoice.AnimationSpeed = 0.03F;
             this.btnPrintInvoice.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrintInvoice.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.btnPrintInvoice.BaseColor = System.Drawing.SystemColors.HotTrack;
             this.btnPrintInvoice.BorderColor = System.Drawing.Color.Black;
             this.btnPrintInvoice.CheckedBaseColor = System.Drawing.Color.Gray;
             this.btnPrintInvoice.CheckedBorderColor = System.Drawing.Color.Black;
@@ -335,7 +335,7 @@
             this.btnPrintInvoice.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
             this.btnPrintInvoice.Location = new System.Drawing.Point(457, 487);
             this.btnPrintInvoice.Name = "btnPrintInvoice";
-            this.btnPrintInvoice.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(56)))));
+            this.btnPrintInvoice.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
             this.btnPrintInvoice.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btnPrintInvoice.OnHoverForeColor = System.Drawing.Color.White;
             this.btnPrintInvoice.OnHoverImage = null;
@@ -417,7 +417,7 @@
             this.btnSubmit.AnimationHoverSpeed = 0.07F;
             this.btnSubmit.AnimationSpeed = 0.03F;
             this.btnSubmit.BackColor = System.Drawing.Color.Transparent;
-            this.btnSubmit.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.btnSubmit.BaseColor = System.Drawing.SystemColors.HotTrack;
             this.btnSubmit.BorderColor = System.Drawing.Color.Black;
             this.btnSubmit.CheckedBaseColor = System.Drawing.Color.Gray;
             this.btnSubmit.CheckedBorderColor = System.Drawing.Color.Black;
@@ -433,7 +433,7 @@
             this.btnSubmit.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
             this.btnSubmit.Location = new System.Drawing.Point(696, 487);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(56)))));
+            this.btnSubmit.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
             this.btnSubmit.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btnSubmit.OnHoverForeColor = System.Drawing.Color.White;
             this.btnSubmit.OnHoverImage = null;
@@ -491,11 +491,11 @@
             this.gunaDataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.gunaDataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(20, 5, 20, 5);
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.gunaDataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
@@ -510,10 +510,10 @@
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             dataGridViewCellStyle5.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.gunaDataGridView1.DefaultCellStyle = dataGridViewCellStyle5;
             this.gunaDataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -534,7 +534,7 @@
             this.gunaDataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
             this.gunaDataGridView1.ThemeStyle.BackColor = System.Drawing.Color.WhiteSmoke;
             this.gunaDataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.gunaDataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
+            this.gunaDataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.gunaDataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.gunaDataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaDataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
@@ -544,10 +544,10 @@
             this.gunaDataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.gunaDataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.gunaDataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaDataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.gunaDataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             this.gunaDataGridView1.ThemeStyle.RowsStyle.Height = 30;
-            this.gunaDataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
-            this.gunaDataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.gunaDataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
+            this.gunaDataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             // 
             // Column1
             // 
@@ -574,7 +574,7 @@
             // 
             this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
             this.Column3.DefaultCellStyle = dataGridViewCellStyle3;
             this.Column3.HeaderText = "DESCRIPTION";
             this.Column3.Name = "Column3";
@@ -597,7 +597,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.panel1.BackColor = System.Drawing.SystemColors.HotTrack;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -608,8 +608,8 @@
             // 
             this.printReport.AlternativeRowBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.printReport.AlternativeRowGridColor = System.Drawing.SystemColors.ControlText;
-            this.printReport.HeaderBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
-            this.printReport.HeaderFontColor = System.Drawing.SystemColors.ControlText;
+            this.printReport.HeaderBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.printReport.HeaderFontColor = System.Drawing.Color.White;
             this.printReport.HeaderGridColor = System.Drawing.SystemColors.ControlText;
             this.printReport.RowDefaultBackgroudColor = System.Drawing.Color.White;
             this.printReport.RowDefaultFontColor = System.Drawing.SystemColors.ControlText;
@@ -618,14 +618,14 @@
             // popupNotifier
             // 
             this.popupNotifier.BodyColor = System.Drawing.Color.White;
-            this.popupNotifier.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
-            this.popupNotifier.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
-            this.popupNotifier.ButtonHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.popupNotifier.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.popupNotifier.ButtonBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.popupNotifier.ButtonHoverColor = System.Drawing.SystemColors.HotTrack;
             this.popupNotifier.ContentFont = new System.Drawing.Font("Tahoma", 10F);
             this.popupNotifier.ContentPadding = new System.Windows.Forms.Padding(5, 5, 0, 5);
             this.popupNotifier.ContentText = null;
             this.popupNotifier.GradientPower = 0;
-            this.popupNotifier.HeaderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.popupNotifier.HeaderColor = System.Drawing.SystemColors.HotTrack;
             this.popupNotifier.HeaderHeight = 10;
             this.popupNotifier.Image = global::LMS.Properties.Resources.jungkook;
             this.popupNotifier.ImagePadding = new System.Windows.Forms.Padding(10, 12, 0, 0);
@@ -683,15 +683,15 @@
         public System.Windows.Forms.Label lblStudentID;
         public System.Windows.Forms.Label lblBorrowID;
         private Tulpep.NotificationWindow.PopupNotifier popupNotifier;
+        private System.Windows.Forms.Label lblAmount;
+        private System.Windows.Forms.Label label3;
+        private Guna.UI2.WinForms.Guna2TextBox txtSummaryRprt;
+        public System.Windows.Forms.Label lblLibrarianName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.Label lblAmount;
-        private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2TextBox txtSummaryRprt;
-        public System.Windows.Forms.Label lblLibrarianName;
     }
 }

@@ -37,7 +37,8 @@ namespace LMS
         {
             if (e.Button == MouseButtons.Right)
             {
-                this.BackColor = Color.FromArgb(234, 162, 44);
+                //this.BackColor = Color.FromArgb(234, 162, 44);
+                this.BackColor = Color.FromArgb(1, 55, 136);
                 this.gunaContextMenuStrip1.Show(this.gunaLinePanel2, e.Location);
                 this.gunaContextMenuStrip1.Show(Cursor.Position);
             }
@@ -45,12 +46,21 @@ namespace LMS
 
         private void GunaLinePanel2_MouseEnter(object sender, EventArgs e)
         {
-            this.BackColor = Color.FromArgb(234, 162, 44);
+            //this.BackColor = Color.FromArgb(234, 162, 44);
+            this.BackColor = Color.FromArgb(0, 102, 204);
+            lblBookName.ForeColor = Color.White;
+            lblDateBorrowed.ForeColor = Color.White;
+            lblDueDate.ForeColor = Color.White;
+            lblStatus.ForeColor = Color.White;
         }
 
         private void GunaLinePanel2_MouseLeave(object sender, EventArgs e)
         {
             this.BackColor = Color.White;
+            lblBookName.ForeColor = Color.FromArgb(60,60,58);
+            lblDateBorrowed.ForeColor = Color.FromArgb(60, 60, 58);
+            lblDueDate.ForeColor = Color.FromArgb(60, 60, 58);
+            lblStatus.ForeColor = Color.FromArgb(60, 60, 58);
         }
 
         private void GunaLinePanel2_MouseDown(object sender, MouseEventArgs e)

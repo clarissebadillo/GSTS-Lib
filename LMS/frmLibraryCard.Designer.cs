@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLibraryCard));
             this.gunaLinePanel1 = new Guna.UI.WinForms.GunaLinePanel();
+            this.lblLibrarian = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtStudentName = new Guna.UI.WinForms.GunaTextBox();
             this.btnSaveQR = new Guna.UI.WinForms.GunaButton();
@@ -66,7 +67,6 @@
             this.lblTitle = new System.Windows.Forms.Label();
             this.btnPrint = new Guna.UI.WinForms.GunaButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblLibrarian = new System.Windows.Forms.Label();
             this.gunaLinePanel1.SuspendLayout();
             this.pnlID.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.studentImage)).BeginInit();
@@ -96,7 +96,7 @@
             this.gunaLinePanel1.Controls.Add(this.panel1);
             this.gunaLinePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gunaLinePanel1.LineBottom = 1;
-            this.gunaLinePanel1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.gunaLinePanel1.LineColor = System.Drawing.SystemColors.HotTrack;
             this.gunaLinePanel1.LineLeft = 1;
             this.gunaLinePanel1.LineRight = 1;
             this.gunaLinePanel1.LineStyle = System.Windows.Forms.BorderStyle.None;
@@ -104,6 +104,17 @@
             this.gunaLinePanel1.Name = "gunaLinePanel1";
             this.gunaLinePanel1.Size = new System.Drawing.Size(990, 576);
             this.gunaLinePanel1.TabIndex = 2;
+            // 
+            // lblLibrarian
+            // 
+            this.lblLibrarian.AutoSize = true;
+            this.lblLibrarian.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLibrarian.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblLibrarian.Location = new System.Drawing.Point(656, 61);
+            this.lblLibrarian.Name = "lblLibrarian";
+            this.lblLibrarian.Size = new System.Drawing.Size(0, 13);
+            this.lblLibrarian.TabIndex = 59;
+            this.lblLibrarian.Visible = false;
             // 
             // label2
             // 
@@ -123,12 +134,13 @@
             this.txtStudentName.BorderSize = 1;
             this.txtStudentName.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtStudentName.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtStudentName.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.txtStudentName.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
             this.txtStudentName.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtStudentName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtStudentName.Location = new System.Drawing.Point(672, 408);
             this.txtStudentName.Name = "txtStudentName";
             this.txtStudentName.PasswordChar = '\0';
+            this.txtStudentName.SelectedText = "";
             this.txtStudentName.Size = new System.Drawing.Size(288, 30);
             this.txtStudentName.TabIndex = 57;
             this.txtStudentName.TextChanged += new System.EventHandler(this.TxtStudentName_TextChanged);
@@ -139,7 +151,7 @@
             this.btnSaveQR.AnimationHoverSpeed = 0.07F;
             this.btnSaveQR.AnimationSpeed = 0.03F;
             this.btnSaveQR.BackColor = System.Drawing.Color.Transparent;
-            this.btnSaveQR.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.btnSaveQR.BaseColor = System.Drawing.SystemColors.HotTrack;
             this.btnSaveQR.BorderColor = System.Drawing.Color.Black;
             this.btnSaveQR.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnSaveQR.FocusedColor = System.Drawing.Color.Empty;
@@ -149,7 +161,7 @@
             this.btnSaveQR.ImageSize = new System.Drawing.Size(20, 20);
             this.btnSaveQR.Location = new System.Drawing.Point(697, 510);
             this.btnSaveQR.Name = "btnSaveQR";
-            this.btnSaveQR.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
+            this.btnSaveQR.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
             this.btnSaveQR.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btnSaveQR.OnHoverForeColor = System.Drawing.Color.White;
             this.btnSaveQR.OnHoverImage = null;
@@ -403,12 +415,13 @@
             this.txtContact.BorderSize = 1;
             this.txtContact.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtContact.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtContact.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.txtContact.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
             this.txtContact.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtContact.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtContact.Location = new System.Drawing.Point(13, 233);
             this.txtContact.Name = "txtContact";
             this.txtContact.PasswordChar = '\0';
+            this.txtContact.SelectedText = "";
             this.txtContact.Size = new System.Drawing.Size(288, 30);
             this.txtContact.TabIndex = 3;
             this.txtContact.TextChanged += new System.EventHandler(this.TxtContact_TextChanged);
@@ -431,12 +444,13 @@
             this.txtRelationship.BorderSize = 1;
             this.txtRelationship.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtRelationship.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtRelationship.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.txtRelationship.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
             this.txtRelationship.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtRelationship.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtRelationship.Location = new System.Drawing.Point(13, 177);
             this.txtRelationship.Name = "txtRelationship";
             this.txtRelationship.PasswordChar = '\0';
+            this.txtRelationship.SelectedText = "";
             this.txtRelationship.Size = new System.Drawing.Size(288, 30);
             this.txtRelationship.TabIndex = 2;
             this.txtRelationship.TextChanged += new System.EventHandler(this.TxtRelationship_TextChanged);
@@ -459,12 +473,13 @@
             this.txtAddress.BorderSize = 1;
             this.txtAddress.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtAddress.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtAddress.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.txtAddress.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
             this.txtAddress.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtAddress.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtAddress.Location = new System.Drawing.Point(13, 121);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.PasswordChar = '\0';
+            this.txtAddress.SelectedText = "";
             this.txtAddress.Size = new System.Drawing.Size(288, 30);
             this.txtAddress.TabIndex = 1;
             this.txtAddress.TextChanged += new System.EventHandler(this.TxtAddress_TextChanged);
@@ -487,12 +502,13 @@
             this.txtName.BorderSize = 1;
             this.txtName.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtName.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtName.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.txtName.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
             this.txtName.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtName.Location = new System.Drawing.Point(13, 65);
             this.txtName.Name = "txtName";
             this.txtName.PasswordChar = '\0';
+            this.txtName.SelectedText = "";
             this.txtName.Size = new System.Drawing.Size(288, 30);
             this.txtName.TabIndex = 0;
             this.txtName.TextChanged += new System.EventHandler(this.TxtName_TextChanged);
@@ -504,12 +520,13 @@
             this.txtValidity.BorderSize = 1;
             this.txtValidity.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtValidity.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtValidity.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.txtValidity.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
             this.txtValidity.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtValidity.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtValidity.Location = new System.Drawing.Point(672, 459);
             this.txtValidity.Name = "txtValidity";
             this.txtValidity.PasswordChar = '\0';
+            this.txtValidity.SelectedText = "";
             this.txtValidity.Size = new System.Drawing.Size(288, 30);
             this.txtValidity.TabIndex = 4;
             this.txtValidity.TextChanged += new System.EventHandler(this.TxtValidity_TextChanged);
@@ -546,7 +563,7 @@
             this.btnPrint.AnimationHoverSpeed = 0.07F;
             this.btnPrint.AnimationSpeed = 0.03F;
             this.btnPrint.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrint.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.btnPrint.BaseColor = System.Drawing.SystemColors.HotTrack;
             this.btnPrint.BorderColor = System.Drawing.Color.Black;
             this.btnPrint.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnPrint.FocusedColor = System.Drawing.Color.Empty;
@@ -556,7 +573,7 @@
             this.btnPrint.ImageSize = new System.Drawing.Size(20, 20);
             this.btnPrint.Location = new System.Drawing.Point(839, 510);
             this.btnPrint.Name = "btnPrint";
-            this.btnPrint.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
+            this.btnPrint.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
             this.btnPrint.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btnPrint.OnHoverForeColor = System.Drawing.Color.White;
             this.btnPrint.OnHoverImage = null;
@@ -570,23 +587,12 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.panel1.BackColor = System.Drawing.SystemColors.HotTrack;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(990, 7);
             this.panel1.TabIndex = 26;
-            // 
-            // lblLibrarian
-            // 
-            this.lblLibrarian.AutoSize = true;
-            this.lblLibrarian.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLibrarian.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblLibrarian.Location = new System.Drawing.Point(656, 61);
-            this.lblLibrarian.Name = "lblLibrarian";
-            this.lblLibrarian.Size = new System.Drawing.Size(0, 13);
-            this.lblLibrarian.TabIndex = 59;
-            this.lblLibrarian.Visible = false;
             // 
             // frmLibraryCard
             // 

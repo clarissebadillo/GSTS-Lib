@@ -241,11 +241,11 @@
             this.gunaDataGridView4.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.gunaDataGridView4.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.HotTrack;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(10, 5, 0, 5);
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.gunaDataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
@@ -261,7 +261,7 @@
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.gunaDataGridView4.DefaultCellStyle = dataGridViewCellStyle3;
             this.gunaDataGridView4.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -283,7 +283,7 @@
             this.gunaDataGridView4.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
             this.gunaDataGridView4.ThemeStyle.BackColor = System.Drawing.Color.White;
             this.gunaDataGridView4.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.gunaDataGridView4.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            this.gunaDataGridView4.ThemeStyle.HeaderStyle.BackColor = System.Drawing.SystemColors.HotTrack;
             this.gunaDataGridView4.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.gunaDataGridView4.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaDataGridView4.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
@@ -296,7 +296,7 @@
             this.gunaDataGridView4.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             this.gunaDataGridView4.ThemeStyle.RowsStyle.Height = 30;
             this.gunaDataGridView4.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            this.gunaDataGridView4.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            this.gunaDataGridView4.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             // 
             // dataGridViewTextBoxColumn10
             // 
@@ -337,7 +337,7 @@
             this.dt6.BorderSize = 1;
             this.dt6.CustomFormat = "MM/dd/yyyy";
             this.dt6.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dt6.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.dt6.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.dt6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.dt6.ForeColor = System.Drawing.Color.Black;
             this.dt6.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
@@ -346,7 +346,7 @@
             this.dt6.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dt6.Name = "dt6";
             this.dt6.OnHoverBaseColor = System.Drawing.Color.Gainsboro;
-            this.dt6.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.dt6.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
             this.dt6.OnHoverForeColor = System.Drawing.Color.Black;
             this.dt6.OnPressedColor = System.Drawing.Color.Black;
             this.dt6.Size = new System.Drawing.Size(188, 30);
@@ -364,7 +364,7 @@
             this.dt5.BorderSize = 1;
             this.dt5.CustomFormat = "MM/dd/yyyy";
             this.dt5.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dt5.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.dt5.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.dt5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.dt5.ForeColor = System.Drawing.Color.Black;
             this.dt5.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
@@ -373,7 +373,7 @@
             this.dt5.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dt5.Name = "dt5";
             this.dt5.OnHoverBaseColor = System.Drawing.Color.Gainsboro;
-            this.dt5.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.dt5.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
             this.dt5.OnHoverForeColor = System.Drawing.Color.Black;
             this.dt5.OnPressedColor = System.Drawing.Color.Black;
             this.dt5.Size = new System.Drawing.Size(188, 30);
@@ -470,7 +470,7 @@
             "Damaged"});
             this.cboStatus.Location = new System.Drawing.Point(838, 100);
             this.cboStatus.Name = "cboStatus";
-            this.cboStatus.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            this.cboStatus.OnHoverItemBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.cboStatus.OnHoverItemForeColor = System.Drawing.Color.White;
             this.cboStatus.Size = new System.Drawing.Size(258, 26);
             this.cboStatus.TabIndex = 79;
@@ -500,11 +500,11 @@
             this.gunaDataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.gunaDataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.HotTrack;
             dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle5.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.gunaDataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
@@ -524,7 +524,7 @@
             dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.gunaDataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
             this.gunaDataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -546,7 +546,7 @@
             this.gunaDataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
             this.gunaDataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
             this.gunaDataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.gunaDataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            this.gunaDataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.SystemColors.HotTrack;
             this.gunaDataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.gunaDataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaDataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
@@ -559,7 +559,7 @@
             this.gunaDataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             this.gunaDataGridView1.ThemeStyle.RowsStyle.Height = 30;
             this.gunaDataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            this.gunaDataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            this.gunaDataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             // 
             // Column1
             // 
@@ -640,7 +640,7 @@
             this.dt2.BorderSize = 1;
             this.dt2.CustomFormat = "MM/dd/yyyy";
             this.dt2.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dt2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.dt2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.dt2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.dt2.ForeColor = System.Drawing.Color.Black;
             this.dt2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
@@ -649,7 +649,7 @@
             this.dt2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dt2.Name = "dt2";
             this.dt2.OnHoverBaseColor = System.Drawing.Color.Gainsboro;
-            this.dt2.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.dt2.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
             this.dt2.OnHoverForeColor = System.Drawing.Color.Black;
             this.dt2.OnPressedColor = System.Drawing.Color.Black;
             this.dt2.Size = new System.Drawing.Size(188, 30);
@@ -667,7 +667,7 @@
             this.dt1.BorderSize = 1;
             this.dt1.CustomFormat = "MM/dd/yyyy";
             this.dt1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dt1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.dt1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.dt1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.dt1.ForeColor = System.Drawing.Color.Black;
             this.dt1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
@@ -676,7 +676,7 @@
             this.dt1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dt1.Name = "dt1";
             this.dt1.OnHoverBaseColor = System.Drawing.Color.Gainsboro;
-            this.dt1.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.dt1.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
             this.dt1.OnHoverForeColor = System.Drawing.Color.Black;
             this.dt1.OnPressedColor = System.Drawing.Color.Black;
             this.dt1.Size = new System.Drawing.Size(188, 30);
@@ -776,11 +776,11 @@
             this.gunaDataGridView2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.gunaDataGridView2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.HotTrack;
             dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle8.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.gunaDataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
@@ -799,7 +799,7 @@
             dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.gunaDataGridView2.DefaultCellStyle = dataGridViewCellStyle9;
             this.gunaDataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -821,7 +821,7 @@
             this.gunaDataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
             this.gunaDataGridView2.ThemeStyle.BackColor = System.Drawing.Color.White;
             this.gunaDataGridView2.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.gunaDataGridView2.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            this.gunaDataGridView2.ThemeStyle.HeaderStyle.BackColor = System.Drawing.SystemColors.HotTrack;
             this.gunaDataGridView2.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.gunaDataGridView2.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaDataGridView2.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
@@ -834,7 +834,7 @@
             this.gunaDataGridView2.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             this.gunaDataGridView2.ThemeStyle.RowsStyle.Height = 30;
             this.gunaDataGridView2.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            this.gunaDataGridView2.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            this.gunaDataGridView2.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -907,7 +907,7 @@
             this.dtTo.BorderSize = 1;
             this.dtTo.CustomFormat = "MM/dd/yyyy";
             this.dtTo.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dtTo.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.dtTo.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.dtTo.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.dtTo.ForeColor = System.Drawing.Color.Black;
             this.dtTo.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
@@ -916,7 +916,7 @@
             this.dtTo.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtTo.Name = "dtTo";
             this.dtTo.OnHoverBaseColor = System.Drawing.Color.Gainsboro;
-            this.dtTo.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.dtTo.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
             this.dtTo.OnHoverForeColor = System.Drawing.Color.Black;
             this.dtTo.OnPressedColor = System.Drawing.Color.Black;
             this.dtTo.Size = new System.Drawing.Size(188, 30);
@@ -934,7 +934,7 @@
             this.dtFrom.BorderSize = 1;
             this.dtFrom.CustomFormat = "MM/dd/yyyy";
             this.dtFrom.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dtFrom.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.dtFrom.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.dtFrom.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.dtFrom.ForeColor = System.Drawing.Color.Black;
             this.dtFrom.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
@@ -943,7 +943,7 @@
             this.dtFrom.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtFrom.Name = "dtFrom";
             this.dtFrom.OnHoverBaseColor = System.Drawing.Color.Gainsboro;
-            this.dtFrom.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.dtFrom.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
             this.dtFrom.OnHoverForeColor = System.Drawing.Color.Black;
             this.dtFrom.OnPressedColor = System.Drawing.Color.Black;
             this.dtFrom.Size = new System.Drawing.Size(188, 30);
@@ -1043,11 +1043,11 @@
             this.gunaDataGridView3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.gunaDataGridView3.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.HotTrack;
             dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle11.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.gunaDataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
@@ -1067,7 +1067,7 @@
             dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.gunaDataGridView3.DefaultCellStyle = dataGridViewCellStyle12;
             this.gunaDataGridView3.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -1089,7 +1089,7 @@
             this.gunaDataGridView3.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
             this.gunaDataGridView3.ThemeStyle.BackColor = System.Drawing.Color.White;
             this.gunaDataGridView3.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.gunaDataGridView3.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            this.gunaDataGridView3.ThemeStyle.HeaderStyle.BackColor = System.Drawing.SystemColors.HotTrack;
             this.gunaDataGridView3.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.gunaDataGridView3.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaDataGridView3.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
@@ -1102,7 +1102,7 @@
             this.gunaDataGridView3.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             this.gunaDataGridView3.ThemeStyle.RowsStyle.Height = 30;
             this.gunaDataGridView3.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            this.gunaDataGridView3.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            this.gunaDataGridView3.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             // 
             // dataGridViewTextBoxColumn7
             // 
@@ -1183,7 +1183,7 @@
             this.dt4.BorderSize = 1;
             this.dt4.CustomFormat = "MM/dd/yyyy";
             this.dt4.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dt4.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.dt4.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.dt4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.dt4.ForeColor = System.Drawing.Color.Black;
             this.dt4.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
@@ -1192,7 +1192,7 @@
             this.dt4.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dt4.Name = "dt4";
             this.dt4.OnHoverBaseColor = System.Drawing.Color.Gainsboro;
-            this.dt4.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.dt4.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
             this.dt4.OnHoverForeColor = System.Drawing.Color.Black;
             this.dt4.OnPressedColor = System.Drawing.Color.Black;
             this.dt4.Size = new System.Drawing.Size(188, 30);
@@ -1210,7 +1210,7 @@
             this.dt3.BorderSize = 1;
             this.dt3.CustomFormat = "MM/dd/yyyy";
             this.dt3.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dt3.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.dt3.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.dt3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.dt3.ForeColor = System.Drawing.Color.Black;
             this.dt3.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
@@ -1219,7 +1219,7 @@
             this.dt3.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dt3.Name = "dt3";
             this.dt3.OnHoverBaseColor = System.Drawing.Color.Gainsboro;
-            this.dt3.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(162)))), ((int)(((byte)(44)))));
+            this.dt3.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
             this.dt3.OnHoverForeColor = System.Drawing.Color.Black;
             this.dt3.OnPressedColor = System.Drawing.Color.Black;
             this.dt3.Size = new System.Drawing.Size(188, 30);
