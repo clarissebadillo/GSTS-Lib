@@ -126,7 +126,7 @@
             this.txtSearchBook.BorderColor = System.Drawing.Color.Gainsboro;
             this.txtSearchBook.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSearchBook.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.txtSearchBook.FocusBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtSearchBook.FocusBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtSearchBook.Location = new System.Drawing.Point(27, 314);
             this.txtSearchBook.Metrocolor = System.Drawing.Color.Gainsboro;
             this.txtSearchBook.Name = "txtSearchBook";
@@ -138,14 +138,15 @@
             // popupNotifier
             // 
             this.popupNotifier.BodyColor = System.Drawing.Color.White;
-            this.popupNotifier.BorderColor = System.Drawing.SystemColors.HotTrack;
-            this.popupNotifier.ButtonBorderColor = System.Drawing.SystemColors.HotTrack;
-            this.popupNotifier.ButtonHoverColor = System.Drawing.SystemColors.HotTrack;
+            this.popupNotifier.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.popupNotifier.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.popupNotifier.ButtonHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.popupNotifier.ContentFont = new System.Drawing.Font("Tahoma", 10F);
+            this.popupNotifier.ContentHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.popupNotifier.ContentPadding = new System.Windows.Forms.Padding(5, 5, 0, 5);
             this.popupNotifier.ContentText = null;
             this.popupNotifier.GradientPower = 0;
-            this.popupNotifier.HeaderColor = System.Drawing.SystemColors.HotTrack;
+            this.popupNotifier.HeaderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.popupNotifier.HeaderHeight = 10;
             this.popupNotifier.Image = global::LMS.Properties.Resources.jungkook;
             this.popupNotifier.ImagePadding = new System.Windows.Forms.Padding(10, 12, 0, 0);
@@ -573,7 +574,7 @@
             this.dtDueDate.BorderSize = 1;
             this.dtDueDate.CustomFormat = "MM/dd/yyyy";
             this.dtDueDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dtDueDate.FocusedColor = System.Drawing.SystemColors.HotTrack;
+            this.dtDueDate.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.dtDueDate.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.dtDueDate.ForeColor = System.Drawing.Color.Black;
             this.dtDueDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
@@ -582,7 +583,7 @@
             this.dtDueDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtDueDate.Name = "dtDueDate";
             this.dtDueDate.OnHoverBaseColor = System.Drawing.Color.Gainsboro;
-            this.dtDueDate.OnHoverBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.dtDueDate.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.dtDueDate.OnHoverForeColor = System.Drawing.Color.Black;
             this.dtDueDate.OnPressedColor = System.Drawing.Color.Black;
             this.dtDueDate.Size = new System.Drawing.Size(243, 30);
@@ -638,7 +639,7 @@
             this.btnProcessIssue.AnimationHoverSpeed = 0.07F;
             this.btnProcessIssue.AnimationSpeed = 0.03F;
             this.btnProcessIssue.BackColor = System.Drawing.Color.Transparent;
-            this.btnProcessIssue.BaseColor = System.Drawing.SystemColors.HotTrack;
+            this.btnProcessIssue.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnProcessIssue.BorderColor = System.Drawing.Color.Black;
             this.btnProcessIssue.CheckedBaseColor = System.Drawing.Color.Gray;
             this.btnProcessIssue.CheckedBorderColor = System.Drawing.Color.Black;
@@ -745,7 +746,7 @@
             this.dtIssueDate.BorderSize = 1;
             this.dtIssueDate.CustomFormat = "MM/dd/yyyy";
             this.dtIssueDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dtIssueDate.FocusedColor = System.Drawing.SystemColors.HotTrack;
+            this.dtIssueDate.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.dtIssueDate.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.dtIssueDate.ForeColor = System.Drawing.Color.Black;
             this.dtIssueDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
@@ -754,7 +755,7 @@
             this.dtIssueDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtIssueDate.Name = "dtIssueDate";
             this.dtIssueDate.OnHoverBaseColor = System.Drawing.Color.Gainsboro;
-            this.dtIssueDate.OnHoverBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.dtIssueDate.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.dtIssueDate.OnHoverForeColor = System.Drawing.Color.Black;
             this.dtIssueDate.OnPressedColor = System.Drawing.Color.Black;
             this.dtIssueDate.Size = new System.Drawing.Size(243, 30);
@@ -912,7 +913,7 @@
             this.btnScan.AnimationHoverSpeed = 0.07F;
             this.btnScan.AnimationSpeed = 0.03F;
             this.btnScan.BackColor = System.Drawing.Color.Transparent;
-            this.btnScan.BaseColor = System.Drawing.SystemColors.HotTrack;
+            this.btnScan.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnScan.BorderColor = System.Drawing.Color.Black;
             this.btnScan.CheckedBaseColor = System.Drawing.Color.Gray;
             this.btnScan.CheckedBorderColor = System.Drawing.Color.Black;
@@ -995,7 +996,7 @@
             this.txtSearchStud.BorderColor = System.Drawing.Color.Gainsboro;
             this.txtSearchStud.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSearchStud.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.txtSearchStud.FocusBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtSearchStud.FocusBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtSearchStud.Location = new System.Drawing.Point(34, 43);
             this.txtSearchStud.Metrocolor = System.Drawing.Color.Gainsboro;
             this.txtSearchStud.Name = "txtSearchStud";

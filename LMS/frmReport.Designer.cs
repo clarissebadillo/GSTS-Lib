@@ -51,7 +51,7 @@
             // 
             // tabControlAdv1
             // 
-            this.tabControlAdv1.ActiveTabColor = System.Drawing.SystemColors.HotTrack;
+            this.tabControlAdv1.ActiveTabColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.tabControlAdv1.ActiveTabFont = new System.Drawing.Font("Segoe UI", 8.25F);
             this.tabControlAdv1.Alignment = System.Windows.Forms.TabAlignment.Left;
             this.tabControlAdv1.BeforeTouchSize = new System.Drawing.Size(1137, 641);
@@ -97,7 +97,7 @@
             this.gunaControlBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
             this.gunaControlBox4.IconColor = System.Drawing.Color.Black;
             this.gunaControlBox4.IconSize = 15F;
-            this.gunaControlBox4.Location = new System.Drawing.Point(957, 0);
+            this.gunaControlBox4.Location = new System.Drawing.Point(958, -1);
             this.gunaControlBox4.Name = "gunaControlBox4";
             this.gunaControlBox4.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(17)))), ((int)(((byte)(35)))));
             this.gunaControlBox4.OnHoverIconColor = System.Drawing.Color.White;
@@ -147,7 +147,7 @@
             this.gunaControlBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
             this.gunaControlBox3.IconColor = System.Drawing.Color.Black;
             this.gunaControlBox3.IconSize = 15F;
-            this.gunaControlBox3.Location = new System.Drawing.Point(957, -1);
+            this.gunaControlBox3.Location = new System.Drawing.Point(958, -1);
             this.gunaControlBox3.Name = "gunaControlBox3";
             this.gunaControlBox3.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(17)))), ((int)(((byte)(35)))));
             this.gunaControlBox3.OnHoverIconColor = System.Drawing.Color.White;
@@ -197,7 +197,7 @@
             this.gunaControlBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
             this.gunaControlBox2.IconColor = System.Drawing.Color.Black;
             this.gunaControlBox2.IconSize = 15F;
-            this.gunaControlBox2.Location = new System.Drawing.Point(958, 0);
+            this.gunaControlBox2.Location = new System.Drawing.Point(958, -1);
             this.gunaControlBox2.Name = "gunaControlBox2";
             this.gunaControlBox2.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(17)))), ((int)(((byte)(35)))));
             this.gunaControlBox2.OnHoverIconColor = System.Drawing.Color.White;
@@ -247,7 +247,7 @@
             this.gunaControlBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
             this.gunaControlBox1.IconColor = System.Drawing.Color.Black;
             this.gunaControlBox1.IconSize = 15F;
-            this.gunaControlBox1.Location = new System.Drawing.Point(957, 0);
+            this.gunaControlBox1.Location = new System.Drawing.Point(958, -1);
             this.gunaControlBox1.Name = "gunaControlBox1";
             this.gunaControlBox1.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(17)))), ((int)(((byte)(35)))));
             this.gunaControlBox1.OnHoverIconColor = System.Drawing.Color.White;

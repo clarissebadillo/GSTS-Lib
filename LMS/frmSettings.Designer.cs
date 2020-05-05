@@ -156,7 +156,7 @@
             // 
             // tabControlAdv1
             // 
-            this.tabControlAdv1.ActiveTabColor = System.Drawing.SystemColors.HotTrack;
+            this.tabControlAdv1.ActiveTabColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.tabControlAdv1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -166,7 +166,7 @@
             this.tabControlAdv1.Controls.Add(this.tabPageAdv2);
             this.tabControlAdv1.Controls.Add(this.tabPageAdv3);
             this.tabControlAdv1.Controls.Add(this.tabPageAdv4);
-            this.tabControlAdv1.FixedSingleBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.tabControlAdv1.FixedSingleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.tabControlAdv1.FocusOnTabClick = false;
             this.tabControlAdv1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControlAdv1.InactiveTabColor = System.Drawing.Color.White;
@@ -228,10 +228,10 @@
             this.txtLostBook.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtLostBook.DisabledState.Parent = this.txtLostBook;
             this.txtLostBook.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtLostBook.FocusedState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtLostBook.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtLostBook.FocusedState.Parent = this.txtLostBook;
             this.txtLostBook.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(56)))));
-            this.txtLostBook.HoverState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtLostBook.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtLostBook.HoverState.Parent = this.txtLostBook;
             this.txtLostBook.Location = new System.Drawing.Point(518, 191);
             this.txtLostBook.Name = "txtLostBook";
@@ -261,10 +261,10 @@
             this.txtDamage.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtDamage.DisabledState.Parent = this.txtDamage;
             this.txtDamage.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtDamage.FocusedState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtDamage.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtDamage.FocusedState.Parent = this.txtDamage;
             this.txtDamage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(56)))));
-            this.txtDamage.HoverState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtDamage.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtDamage.HoverState.Parent = this.txtDamage;
             this.txtDamage.Location = new System.Drawing.Point(518, 117);
             this.txtDamage.Name = "txtDamage";
@@ -294,10 +294,10 @@
             this.txtFine.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtFine.DisabledState.Parent = this.txtFine;
             this.txtFine.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtFine.FocusedState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtFine.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtFine.FocusedState.Parent = this.txtFine;
             this.txtFine.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(56)))));
-            this.txtFine.HoverState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtFine.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtFine.HoverState.Parent = this.txtFine;
             this.txtFine.Location = new System.Drawing.Point(43, 265);
             this.txtFine.Name = "txtFine";
@@ -327,10 +327,10 @@
             this.txtBorrowBooks.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtBorrowBooks.DisabledState.Parent = this.txtBorrowBooks;
             this.txtBorrowBooks.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtBorrowBooks.FocusedState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtBorrowBooks.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtBorrowBooks.FocusedState.Parent = this.txtBorrowBooks;
             this.txtBorrowBooks.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(56)))));
-            this.txtBorrowBooks.HoverState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtBorrowBooks.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtBorrowBooks.HoverState.Parent = this.txtBorrowBooks;
             this.txtBorrowBooks.Location = new System.Drawing.Point(43, 191);
             this.txtBorrowBooks.Name = "txtBorrowBooks";
@@ -360,10 +360,10 @@
             this.txtBorrowDays.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtBorrowDays.DisabledState.Parent = this.txtBorrowDays;
             this.txtBorrowDays.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtBorrowDays.FocusedState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtBorrowDays.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtBorrowDays.FocusedState.Parent = this.txtBorrowDays;
             this.txtBorrowDays.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(56)))));
-            this.txtBorrowDays.HoverState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtBorrowDays.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtBorrowDays.HoverState.Parent = this.txtBorrowDays;
             this.txtBorrowDays.Location = new System.Drawing.Point(43, 117);
             this.txtBorrowDays.Name = "txtBorrowDays";
@@ -380,7 +380,7 @@
             this.btnUpdate.BorderRadius = 17;
             this.btnUpdate.CheckedState.Parent = this.btnUpdate;
             this.btnUpdate.CustomImages.Parent = this.btnUpdate;
-            this.btnUpdate.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.btnUpdate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnUpdate.Font = new System.Drawing.Font("Segoe UI", 9.55F);
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
             this.btnUpdate.HoverState.Parent = this.btnUpdate;
@@ -404,8 +404,8 @@
             // 
             // tglWithOverdue
             // 
-            this.tglWithOverdue.CheckedState.BorderColor = System.Drawing.SystemColors.HotTrack;
-            this.tglWithOverdue.CheckedState.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.tglWithOverdue.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.tglWithOverdue.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.tglWithOverdue.CheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.tglWithOverdue.CheckedState.InnerColor = System.Drawing.Color.White;
             this.tglWithOverdue.CheckedState.Parent = this.tglWithOverdue;
@@ -432,8 +432,8 @@
             // 
             // tglWithPending
             // 
-            this.tglWithPending.CheckedState.BorderColor = System.Drawing.SystemColors.HotTrack;
-            this.tglWithPending.CheckedState.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.tglWithPending.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.tglWithPending.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.tglWithPending.CheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.tglWithPending.CheckedState.InnerColor = System.Drawing.Color.White;
             this.tglWithPending.CheckedState.Parent = this.tglWithPending;
@@ -504,7 +504,7 @@
             // 
             this.btnProgClear.CheckedState.Parent = this.btnProgClear;
             this.btnProgClear.CustomImages.Parent = this.btnProgClear;
-            this.btnProgClear.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.btnProgClear.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnProgClear.Font = new System.Drawing.Font("Segoe UI", 9.55F);
             this.btnProgClear.ForeColor = System.Drawing.Color.White;
             this.btnProgClear.HoverState.Parent = this.btnProgClear;
@@ -520,7 +520,7 @@
             // 
             this.btnProgUpdate.CheckedState.Parent = this.btnProgUpdate;
             this.btnProgUpdate.CustomImages.Parent = this.btnProgUpdate;
-            this.btnProgUpdate.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.btnProgUpdate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnProgUpdate.Font = new System.Drawing.Font("Segoe UI", 9.55F);
             this.btnProgUpdate.ForeColor = System.Drawing.Color.White;
             this.btnProgUpdate.HoverState.Parent = this.btnProgUpdate;
@@ -536,7 +536,7 @@
             // 
             this.btnProgSave.CheckedState.Parent = this.btnProgSave;
             this.btnProgSave.CustomImages.Parent = this.btnProgSave;
-            this.btnProgSave.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.btnProgSave.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnProgSave.Font = new System.Drawing.Font("Segoe UI", 9.55F);
             this.btnProgSave.ForeColor = System.Drawing.Color.White;
             this.btnProgSave.HoverState.Parent = this.btnProgSave;
@@ -567,10 +567,10 @@
             this.txtDesc.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtDesc.DisabledState.Parent = this.txtDesc;
             this.txtDesc.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtDesc.FocusedState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtDesc.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtDesc.FocusedState.Parent = this.txtDesc;
             this.txtDesc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(56)))));
-            this.txtDesc.HoverState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtDesc.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtDesc.HoverState.Parent = this.txtDesc;
             this.txtDesc.Location = new System.Drawing.Point(713, 236);
             this.txtDesc.Name = "txtDesc";
@@ -729,10 +729,10 @@
             this.txtCode.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtCode.DisabledState.Parent = this.txtCode;
             this.txtCode.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtCode.FocusedState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtCode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtCode.FocusedState.Parent = this.txtCode;
             this.txtCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(56)))));
-            this.txtCode.HoverState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtCode.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtCode.HoverState.Parent = this.txtCode;
             this.txtCode.Location = new System.Drawing.Point(715, 164);
             this.txtCode.Name = "txtCode";
@@ -787,7 +787,7 @@
             // 
             this.btnSubjClear.CheckedState.Parent = this.btnSubjClear;
             this.btnSubjClear.CustomImages.Parent = this.btnSubjClear;
-            this.btnSubjClear.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.btnSubjClear.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnSubjClear.Font = new System.Drawing.Font("Segoe UI", 9.55F);
             this.btnSubjClear.ForeColor = System.Drawing.Color.White;
             this.btnSubjClear.HoverState.Parent = this.btnSubjClear;
@@ -803,7 +803,7 @@
             // 
             this.btnSubjUpdate.CheckedState.Parent = this.btnSubjUpdate;
             this.btnSubjUpdate.CustomImages.Parent = this.btnSubjUpdate;
-            this.btnSubjUpdate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.btnSubjUpdate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnSubjUpdate.Font = new System.Drawing.Font("Segoe UI", 9.55F);
             this.btnSubjUpdate.ForeColor = System.Drawing.Color.White;
             this.btnSubjUpdate.HoverState.Parent = this.btnSubjUpdate;
@@ -819,7 +819,7 @@
             // 
             this.btnSubjSave.CheckedState.Parent = this.btnSubjSave;
             this.btnSubjSave.CustomImages.Parent = this.btnSubjSave;
-            this.btnSubjSave.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.btnSubjSave.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnSubjSave.Font = new System.Drawing.Font("Segoe UI", 9.55F);
             this.btnSubjSave.ForeColor = System.Drawing.Color.White;
             this.btnSubjSave.HoverState.Parent = this.btnSubjSave;
@@ -850,10 +850,10 @@
             this.txtSubject.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtSubject.DisabledState.Parent = this.txtSubject;
             this.txtSubject.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSubject.FocusedState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtSubject.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtSubject.FocusedState.Parent = this.txtSubject;
             this.txtSubject.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(56)))));
-            this.txtSubject.HoverState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtSubject.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtSubject.HoverState.Parent = this.txtSubject;
             this.txtSubject.Location = new System.Drawing.Point(718, 200);
             this.txtSubject.Name = "txtSubject";
@@ -1027,10 +1027,10 @@
             // cbPayments
             // 
             this.cbPayments.AutoSize = true;
-            this.cbPayments.CheckedState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.cbPayments.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.cbPayments.CheckedState.BorderRadius = 2;
             this.cbPayments.CheckedState.BorderThickness = 0;
-            this.cbPayments.CheckedState.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.cbPayments.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.cbPayments.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbPayments.Location = new System.Drawing.Point(433, 259);
             this.cbPayments.Name = "cbPayments";
@@ -1046,10 +1046,10 @@
             // cbBorrowedBooks
             // 
             this.cbBorrowedBooks.AutoSize = true;
-            this.cbBorrowedBooks.CheckedState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.cbBorrowedBooks.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.cbBorrowedBooks.CheckedState.BorderRadius = 2;
             this.cbBorrowedBooks.CheckedState.BorderThickness = 0;
-            this.cbBorrowedBooks.CheckedState.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.cbBorrowedBooks.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.cbBorrowedBooks.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbBorrowedBooks.Location = new System.Drawing.Point(433, 232);
             this.cbBorrowedBooks.Name = "cbBorrowedBooks";
@@ -1065,10 +1065,10 @@
             // cbBooks
             // 
             this.cbBooks.AutoSize = true;
-            this.cbBooks.CheckedState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.cbBooks.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.cbBooks.CheckedState.BorderRadius = 2;
             this.cbBooks.CheckedState.BorderThickness = 0;
-            this.cbBooks.CheckedState.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.cbBooks.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.cbBooks.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbBooks.Location = new System.Drawing.Point(433, 205);
             this.cbBooks.Name = "cbBooks";
@@ -1084,10 +1084,10 @@
             // cbStudents
             // 
             this.cbStudents.AutoSize = true;
-            this.cbStudents.CheckedState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.cbStudents.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.cbStudents.CheckedState.BorderRadius = 2;
             this.cbStudents.CheckedState.BorderThickness = 0;
-            this.cbStudents.CheckedState.FillColor = System.Drawing.SystemColors.HotTrack;
+            this.cbStudents.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.cbStudents.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbStudents.Location = new System.Drawing.Point(433, 178);
             this.cbStudents.Name = "cbStudents";

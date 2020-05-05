@@ -55,7 +55,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(178)))), ((int)(((byte)(30)))));
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
             this.panel2.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.panel2.Location = new System.Drawing.Point(-1, 507);
             this.panel2.Name = "panel2";
@@ -64,7 +64,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(117)))), ((int)(((byte)(36)))));
+            this.panel1.BackColor = System.Drawing.Color.RoyalBlue;
             this.panel1.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 507);

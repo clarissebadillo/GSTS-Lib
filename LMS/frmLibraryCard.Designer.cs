@@ -96,7 +96,7 @@
             this.gunaLinePanel1.Controls.Add(this.panel1);
             this.gunaLinePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gunaLinePanel1.LineBottom = 1;
-            this.gunaLinePanel1.LineColor = System.Drawing.SystemColors.HotTrack;
+            this.gunaLinePanel1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.gunaLinePanel1.LineLeft = 1;
             this.gunaLinePanel1.LineRight = 1;
             this.gunaLinePanel1.LineStyle = System.Windows.Forms.BorderStyle.None;
@@ -134,7 +134,7 @@
             this.txtStudentName.BorderSize = 1;
             this.txtStudentName.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtStudentName.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtStudentName.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtStudentName.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtStudentName.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtStudentName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtStudentName.Location = new System.Drawing.Point(672, 408);
@@ -151,7 +151,7 @@
             this.btnSaveQR.AnimationHoverSpeed = 0.07F;
             this.btnSaveQR.AnimationSpeed = 0.03F;
             this.btnSaveQR.BackColor = System.Drawing.Color.Transparent;
-            this.btnSaveQR.BaseColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSaveQR.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnSaveQR.BorderColor = System.Drawing.Color.Black;
             this.btnSaveQR.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnSaveQR.FocusedColor = System.Drawing.Color.Empty;
@@ -415,7 +415,7 @@
             this.txtContact.BorderSize = 1;
             this.txtContact.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtContact.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtContact.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtContact.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtContact.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtContact.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtContact.Location = new System.Drawing.Point(13, 233);
@@ -444,7 +444,7 @@
             this.txtRelationship.BorderSize = 1;
             this.txtRelationship.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtRelationship.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtRelationship.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtRelationship.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtRelationship.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtRelationship.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtRelationship.Location = new System.Drawing.Point(13, 177);
@@ -473,7 +473,7 @@
             this.txtAddress.BorderSize = 1;
             this.txtAddress.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtAddress.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtAddress.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtAddress.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtAddress.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtAddress.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtAddress.Location = new System.Drawing.Point(13, 121);
@@ -502,7 +502,7 @@
             this.txtName.BorderSize = 1;
             this.txtName.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtName.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtName.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtName.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtName.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtName.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtName.Location = new System.Drawing.Point(13, 65);
@@ -520,7 +520,7 @@
             this.txtValidity.BorderSize = 1;
             this.txtValidity.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtValidity.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtValidity.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtValidity.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtValidity.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtValidity.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtValidity.Location = new System.Drawing.Point(672, 459);
@@ -563,7 +563,7 @@
             this.btnPrint.AnimationHoverSpeed = 0.07F;
             this.btnPrint.AnimationSpeed = 0.03F;
             this.btnPrint.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrint.BaseColor = System.Drawing.SystemColors.HotTrack;
+            this.btnPrint.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnPrint.BorderColor = System.Drawing.Color.Black;
             this.btnPrint.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnPrint.FocusedColor = System.Drawing.Color.Empty;
@@ -587,7 +587,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";

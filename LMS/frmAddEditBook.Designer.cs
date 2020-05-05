@@ -83,7 +83,7 @@
             this.gunaLinePanel1.Controls.Add(this.gunaLinePanel4);
             this.gunaLinePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gunaLinePanel1.LineBottom = 1;
-            this.gunaLinePanel1.LineColor = System.Drawing.SystemColors.HotTrack;
+            this.gunaLinePanel1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.gunaLinePanel1.LineLeft = 1;
             this.gunaLinePanel1.LineRight = 1;
             this.gunaLinePanel1.LineStyle = System.Windows.Forms.BorderStyle.None;
@@ -108,7 +108,7 @@
             this.btnUpdate.AnimationHoverSpeed = 0.07F;
             this.btnUpdate.AnimationSpeed = 0.03F;
             this.btnUpdate.BackColor = System.Drawing.Color.Transparent;
-            this.btnUpdate.BaseColor = System.Drawing.SystemColors.HotTrack;
+            this.btnUpdate.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnUpdate.BorderColor = System.Drawing.Color.Black;
             this.btnUpdate.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnUpdate.FocusedColor = System.Drawing.Color.Empty;
@@ -137,7 +137,7 @@
             this.btnSave.AnimationHoverSpeed = 0.07F;
             this.btnSave.AnimationSpeed = 0.03F;
             this.btnSave.BackColor = System.Drawing.Color.Transparent;
-            this.btnSave.BaseColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSave.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnSave.BorderColor = System.Drawing.Color.Black;
             this.btnSave.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btnSave.FocusedColor = System.Drawing.Color.Empty;
@@ -270,7 +270,7 @@
             this.txtPrice.BorderSize = 1;
             this.txtPrice.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtPrice.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtPrice.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtPrice.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtPrice.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtPrice.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.txtPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
@@ -290,7 +290,7 @@
             this.txtYear.BorderSize = 1;
             this.txtYear.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtYear.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtYear.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtYear.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtYear.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtYear.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.txtYear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
@@ -322,7 +322,7 @@
             this.txtPublisher.BorderSize = 1;
             this.txtPublisher.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtPublisher.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtPublisher.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtPublisher.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtPublisher.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtPublisher.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.txtPublisher.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
@@ -353,7 +353,7 @@
             this.txtAuthor.BorderSize = 1;
             this.txtAuthor.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtAuthor.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtAuthor.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtAuthor.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtAuthor.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtAuthor.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.txtAuthor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
@@ -384,7 +384,7 @@
             this.txtLanguage.BorderSize = 1;
             this.txtLanguage.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtLanguage.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtLanguage.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtLanguage.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtLanguage.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtLanguage.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.txtLanguage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
@@ -433,7 +433,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -491,7 +491,7 @@
             this.txtCopies.BorderSize = 1;
             this.txtCopies.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtCopies.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtCopies.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtCopies.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtCopies.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtCopies.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.txtCopies.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
@@ -523,7 +523,7 @@
             this.txtTitle.BorderSize = 1;
             this.txtTitle.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtTitle.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtTitle.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtTitle.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtTitle.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtTitle.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.txtTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
@@ -554,7 +554,7 @@
             this.txtISBN.BorderSize = 1;
             this.txtISBN.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtISBN.FocusedBaseColor = System.Drawing.Color.Gainsboro;
-            this.txtISBN.FocusedBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtISBN.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtISBN.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtISBN.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.txtISBN.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
@@ -608,14 +608,15 @@
             // popupNotifier
             // 
             this.popupNotifier.BodyColor = System.Drawing.Color.White;
-            this.popupNotifier.BorderColor = System.Drawing.SystemColors.HotTrack;
-            this.popupNotifier.ButtonBorderColor = System.Drawing.SystemColors.HotTrack;
-            this.popupNotifier.ButtonHoverColor = System.Drawing.SystemColors.HotTrack;
+            this.popupNotifier.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.popupNotifier.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.popupNotifier.ButtonHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.popupNotifier.ContentFont = new System.Drawing.Font("Tahoma", 10F);
+            this.popupNotifier.ContentHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.popupNotifier.ContentPadding = new System.Windows.Forms.Padding(5, 5, 0, 5);
             this.popupNotifier.ContentText = null;
             this.popupNotifier.GradientPower = 0;
-            this.popupNotifier.HeaderColor = System.Drawing.SystemColors.HotTrack;
+            this.popupNotifier.HeaderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.popupNotifier.HeaderHeight = 10;
             this.popupNotifier.Image = global::LMS.Properties.Resources.jungkook;
             this.popupNotifier.ImagePadding = new System.Windows.Forms.Padding(10, 12, 0, 0);

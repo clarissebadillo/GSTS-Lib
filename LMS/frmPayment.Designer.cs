@@ -100,7 +100,7 @@
             this.gunaLinePanel1.Controls.Add(this.panel1);
             this.gunaLinePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gunaLinePanel1.LineBottom = 1;
-            this.gunaLinePanel1.LineColor = System.Drawing.SystemColors.HotTrack;
+            this.gunaLinePanel1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.gunaLinePanel1.LineLeft = 1;
             this.gunaLinePanel1.LineRight = 1;
             this.gunaLinePanel1.LineStyle = System.Windows.Forms.BorderStyle.None;
@@ -129,10 +129,10 @@
             this.txtSummaryRprt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtSummaryRprt.DisabledState.Parent = this.txtSummaryRprt;
             this.txtSummaryRprt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSummaryRprt.FocusedState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtSummaryRprt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtSummaryRprt.FocusedState.Parent = this.txtSummaryRprt;
             this.txtSummaryRprt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(61)))), ((int)(((byte)(56)))));
-            this.txtSummaryRprt.HoverState.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.txtSummaryRprt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.txtSummaryRprt.HoverState.Parent = this.txtSummaryRprt;
             this.txtSummaryRprt.Location = new System.Drawing.Point(457, 452);
             this.txtSummaryRprt.Name = "txtSummaryRprt";
@@ -211,7 +211,7 @@
             this.dtPaymentDate.BorderSize = 0;
             this.dtPaymentDate.CustomFormat = "dd MMMM yyyy";
             this.dtPaymentDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dtPaymentDate.FocusedColor = System.Drawing.SystemColors.HotTrack;
+            this.dtPaymentDate.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.dtPaymentDate.Font = new System.Drawing.Font("Segoe UI", 8.75F);
             this.dtPaymentDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             this.dtPaymentDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
@@ -220,7 +220,7 @@
             this.dtPaymentDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtPaymentDate.Name = "dtPaymentDate";
             this.dtPaymentDate.OnHoverBaseColor = System.Drawing.Color.Gainsboro;
-            this.dtPaymentDate.OnHoverBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.dtPaymentDate.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.dtPaymentDate.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             this.dtPaymentDate.OnPressedColor = System.Drawing.Color.Black;
             this.dtPaymentDate.Size = new System.Drawing.Size(223, 23);
@@ -235,7 +235,7 @@
             this.dtDueDate.BorderSize = 0;
             this.dtDueDate.CustomFormat = "dd MMMM yyyy";
             this.dtDueDate.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dtDueDate.FocusedColor = System.Drawing.SystemColors.HotTrack;
+            this.dtDueDate.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.dtDueDate.Font = new System.Drawing.Font("Segoe UI", 8.75F);
             this.dtDueDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             this.dtDueDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
@@ -244,7 +244,7 @@
             this.dtDueDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtDueDate.Name = "dtDueDate";
             this.dtDueDate.OnHoverBaseColor = System.Drawing.Color.Gainsboro;
-            this.dtDueDate.OnHoverBorderColor = System.Drawing.SystemColors.HotTrack;
+            this.dtDueDate.OnHoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.dtDueDate.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
             this.dtDueDate.OnPressedColor = System.Drawing.Color.Black;
             this.dtDueDate.Size = new System.Drawing.Size(223, 23);
@@ -259,7 +259,7 @@
             this.btnPrintReceipt.AnimationHoverSpeed = 0.07F;
             this.btnPrintReceipt.AnimationSpeed = 0.03F;
             this.btnPrintReceipt.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrintReceipt.BaseColor = System.Drawing.SystemColors.HotTrack;
+            this.btnPrintReceipt.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnPrintReceipt.BorderColor = System.Drawing.Color.Black;
             this.btnPrintReceipt.CheckedBaseColor = System.Drawing.Color.Gray;
             this.btnPrintReceipt.CheckedBorderColor = System.Drawing.Color.Black;
@@ -319,7 +319,7 @@
             this.btnPrintInvoice.AnimationHoverSpeed = 0.07F;
             this.btnPrintInvoice.AnimationSpeed = 0.03F;
             this.btnPrintInvoice.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrintInvoice.BaseColor = System.Drawing.SystemColors.HotTrack;
+            this.btnPrintInvoice.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnPrintInvoice.BorderColor = System.Drawing.Color.Black;
             this.btnPrintInvoice.CheckedBaseColor = System.Drawing.Color.Gray;
             this.btnPrintInvoice.CheckedBorderColor = System.Drawing.Color.Black;
@@ -417,7 +417,7 @@
             this.btnSubmit.AnimationHoverSpeed = 0.07F;
             this.btnSubmit.AnimationSpeed = 0.03F;
             this.btnSubmit.BackColor = System.Drawing.Color.Transparent;
-            this.btnSubmit.BaseColor = System.Drawing.SystemColors.HotTrack;
+            this.btnSubmit.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnSubmit.BorderColor = System.Drawing.Color.Black;
             this.btnSubmit.CheckedBaseColor = System.Drawing.Color.Gray;
             this.btnSubmit.CheckedBorderColor = System.Drawing.Color.Black;
@@ -597,7 +597,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -608,7 +608,7 @@
             // 
             this.printReport.AlternativeRowBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.printReport.AlternativeRowGridColor = System.Drawing.SystemColors.ControlText;
-            this.printReport.HeaderBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(55)))), ((int)(((byte)(136)))));
+            this.printReport.HeaderBackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.printReport.HeaderFontColor = System.Drawing.Color.White;
             this.printReport.HeaderGridColor = System.Drawing.SystemColors.ControlText;
             this.printReport.RowDefaultBackgroudColor = System.Drawing.Color.White;
@@ -618,14 +618,15 @@
             // popupNotifier
             // 
             this.popupNotifier.BodyColor = System.Drawing.Color.White;
-            this.popupNotifier.BorderColor = System.Drawing.SystemColors.HotTrack;
-            this.popupNotifier.ButtonBorderColor = System.Drawing.SystemColors.HotTrack;
-            this.popupNotifier.ButtonHoverColor = System.Drawing.SystemColors.HotTrack;
+            this.popupNotifier.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.popupNotifier.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.popupNotifier.ButtonHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.popupNotifier.ContentFont = new System.Drawing.Font("Tahoma", 10F);
+            this.popupNotifier.ContentHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.popupNotifier.ContentPadding = new System.Windows.Forms.Padding(5, 5, 0, 5);
             this.popupNotifier.ContentText = null;
             this.popupNotifier.GradientPower = 0;
-            this.popupNotifier.HeaderColor = System.Drawing.SystemColors.HotTrack;
+            this.popupNotifier.HeaderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.popupNotifier.HeaderHeight = 10;
             this.popupNotifier.Image = global::LMS.Properties.Resources.jungkook;
             this.popupNotifier.ImagePadding = new System.Windows.Forms.Padding(10, 12, 0, 0);
