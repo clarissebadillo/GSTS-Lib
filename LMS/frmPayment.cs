@@ -65,8 +65,8 @@ namespace LMS
         private void BtnPrintInvoice_Click(object sender, EventArgs e)
         {
             printReport.Clear();
-            printReport.AddImage(Properties.Resources.school_logo, "width = 120, style = 'float:left'");
-            printReport.AddString("<h3 style = 'margin: 20px 0 0 0'>  &nbsp &nbspSTATE UNIVERSITY LIBRARY</h3>");
+            printReport.AddImage(Properties.Resources.gsts_logo, "width = 120, style = 'float:left'");
+            printReport.AddString("<h3 style = 'margin: 20px 0 0 0'>  &nbsp &nbspGlobal School for Technological Studies, Inc.</h3>");
             printReport.AddString("<h5 style = 'margin:5px 0'> &nbsp &nbsp Sample Address, Sample Address, Sample Address");
             printReport.AddString("<h5 style = 'margin:8px 0'> &nbsp &nbsp +63 900000000");
             printReport.AddLineBreak();
@@ -198,8 +198,8 @@ namespace LMS
             }
 
             printReport.Clear();
-            printReport.AddImage(Properties.Resources.school_logo, "width = 120, style = 'float:left'");
-            printReport.AddString("<h3 style = 'margin: 20px 0 0 0'>  &nbsp &nbspSTATE UNIVERSITY LIBRARY</h3>");
+            printReport.AddImage(Properties.Resources.gsts_logo, "width = 120, style = 'float:left'");
+            printReport.AddString("<h3 style = 'margin: 20px 0 0 0'>  &nbsp &nbspGlobal School for Technological Studies, Inc.</h3>");
             printReport.AddString("<h5 style = 'margin:5px 0'> &nbsp &nbsp Sample Address, Sample Address, Sample Address");
             printReport.AddString("<h5 style = 'margin:8px 0'> &nbsp &nbsp +63 900000000");
             printReport.AddLineBreak();

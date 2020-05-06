@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPayment));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPayment));
             this.gunaLinePanel1 = new Guna.UI.WinForms.GunaLinePanel();
             this.lblLibrarianName = new System.Windows.Forms.Label();
             this.txtSummaryRprt = new Guna.UI2.WinForms.Guna2TextBox();
@@ -45,16 +45,13 @@
             this.lblStudentNum = new System.Windows.Forms.Label();
             this.dtPaymentDate = new Guna.UI.WinForms.GunaDateTimePicker();
             this.dtDueDate = new Guna.UI.WinForms.GunaDateTimePicker();
-            this.btnPrintReceipt = new Guna.UI.WinForms.GunaAdvenceButton();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnPrintInvoice = new Guna.UI.WinForms.GunaAdvenceButton();
             this.lblTotalAmount = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.gunaControlBox1 = new Guna.UI.WinForms.GunaControlBox();
-            this.btnSubmit = new Guna.UI.WinForms.GunaAdvenceButton();
             this.lblTitle = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -67,6 +64,9 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
             this.printReport = new KimToo.EasyHTMLReports(this.components);
+            this.btnPrintReceipt = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.btnPrintInvoice = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.btnSubmit = new Guna.UI.WinForms.GunaAdvenceButton();
             this.popupNotifier = new Tulpep.NotificationWindow.PopupNotifier();
             this.gunaLinePanel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -253,41 +253,6 @@
             this.dtDueDate.Value = new System.DateTime(2020, 4, 2, 15, 25, 39, 76);
             this.dtDueDate.Visible = false;
             // 
-            // btnPrintReceipt
-            // 
-            this.btnPrintReceipt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnPrintReceipt.AnimationHoverSpeed = 0.07F;
-            this.btnPrintReceipt.AnimationSpeed = 0.03F;
-            this.btnPrintReceipt.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrintReceipt.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            this.btnPrintReceipt.BorderColor = System.Drawing.Color.Black;
-            this.btnPrintReceipt.CheckedBaseColor = System.Drawing.Color.Gray;
-            this.btnPrintReceipt.CheckedBorderColor = System.Drawing.Color.Black;
-            this.btnPrintReceipt.CheckedForeColor = System.Drawing.Color.White;
-            this.btnPrintReceipt.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnPrintReceipt.CheckedImage")));
-            this.btnPrintReceipt.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.btnPrintReceipt.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnPrintReceipt.FocusedColor = System.Drawing.Color.Empty;
-            this.btnPrintReceipt.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.btnPrintReceipt.ForeColor = System.Drawing.Color.White;
-            this.btnPrintReceipt.Image = null;
-            this.btnPrintReceipt.ImageSize = new System.Drawing.Size(22, 22);
-            this.btnPrintReceipt.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.btnPrintReceipt.Location = new System.Drawing.Point(567, 487);
-            this.btnPrintReceipt.Name = "btnPrintReceipt";
-            this.btnPrintReceipt.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
-            this.btnPrintReceipt.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnPrintReceipt.OnHoverForeColor = System.Drawing.Color.White;
-            this.btnPrintReceipt.OnHoverImage = null;
-            this.btnPrintReceipt.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.btnPrintReceipt.OnPressedColor = System.Drawing.Color.Black;
-            this.btnPrintReceipt.Radius = 7;
-            this.btnPrintReceipt.Size = new System.Drawing.Size(123, 35);
-            this.btnPrintReceipt.TabIndex = 98;
-            this.btnPrintReceipt.Text = "Generate Receipt";
-            this.btnPrintReceipt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btnPrintReceipt.Click += new System.EventHandler(this.BtnPrintReceipt_Click);
-            // 
             // label5
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -312,41 +277,6 @@
             this.label2.Size = new System.Drawing.Size(112, 15);
             this.label2.TabIndex = 96;
             this.label2.Text = "Term and Condition";
-            // 
-            // btnPrintInvoice
-            // 
-            this.btnPrintInvoice.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnPrintInvoice.AnimationHoverSpeed = 0.07F;
-            this.btnPrintInvoice.AnimationSpeed = 0.03F;
-            this.btnPrintInvoice.BackColor = System.Drawing.Color.Transparent;
-            this.btnPrintInvoice.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            this.btnPrintInvoice.BorderColor = System.Drawing.Color.Black;
-            this.btnPrintInvoice.CheckedBaseColor = System.Drawing.Color.Gray;
-            this.btnPrintInvoice.CheckedBorderColor = System.Drawing.Color.Black;
-            this.btnPrintInvoice.CheckedForeColor = System.Drawing.Color.White;
-            this.btnPrintInvoice.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnPrintInvoice.CheckedImage")));
-            this.btnPrintInvoice.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.btnPrintInvoice.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnPrintInvoice.FocusedColor = System.Drawing.Color.Empty;
-            this.btnPrintInvoice.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.btnPrintInvoice.ForeColor = System.Drawing.Color.White;
-            this.btnPrintInvoice.Image = null;
-            this.btnPrintInvoice.ImageSize = new System.Drawing.Size(22, 22);
-            this.btnPrintInvoice.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.btnPrintInvoice.Location = new System.Drawing.Point(457, 487);
-            this.btnPrintInvoice.Name = "btnPrintInvoice";
-            this.btnPrintInvoice.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
-            this.btnPrintInvoice.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnPrintInvoice.OnHoverForeColor = System.Drawing.Color.White;
-            this.btnPrintInvoice.OnHoverImage = null;
-            this.btnPrintInvoice.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.btnPrintInvoice.OnPressedColor = System.Drawing.Color.Black;
-            this.btnPrintInvoice.Radius = 7;
-            this.btnPrintInvoice.Size = new System.Drawing.Size(104, 35);
-            this.btnPrintInvoice.TabIndex = 94;
-            this.btnPrintInvoice.Text = "Print Invoice";
-            this.btnPrintInvoice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btnPrintInvoice.Click += new System.EventHandler(this.BtnPrintInvoice_Click);
             // 
             // lblTotalAmount
             // 
@@ -410,41 +340,6 @@
             this.gunaControlBox1.OnPressedColor = System.Drawing.Color.Black;
             this.gunaControlBox1.Size = new System.Drawing.Size(37, 29);
             this.gunaControlBox1.TabIndex = 2;
-            // 
-            // btnSubmit
-            // 
-            this.btnSubmit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSubmit.AnimationHoverSpeed = 0.07F;
-            this.btnSubmit.AnimationSpeed = 0.03F;
-            this.btnSubmit.BackColor = System.Drawing.Color.Transparent;
-            this.btnSubmit.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            this.btnSubmit.BorderColor = System.Drawing.Color.Black;
-            this.btnSubmit.CheckedBaseColor = System.Drawing.Color.Gray;
-            this.btnSubmit.CheckedBorderColor = System.Drawing.Color.Black;
-            this.btnSubmit.CheckedForeColor = System.Drawing.Color.White;
-            this.btnSubmit.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnSubmit.CheckedImage")));
-            this.btnSubmit.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.btnSubmit.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnSubmit.FocusedColor = System.Drawing.Color.Empty;
-            this.btnSubmit.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.btnSubmit.ForeColor = System.Drawing.Color.White;
-            this.btnSubmit.Image = null;
-            this.btnSubmit.ImageSize = new System.Drawing.Size(22, 22);
-            this.btnSubmit.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.btnSubmit.Location = new System.Drawing.Point(696, 487);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
-            this.btnSubmit.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnSubmit.OnHoverForeColor = System.Drawing.Color.White;
-            this.btnSubmit.OnHoverImage = null;
-            this.btnSubmit.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.btnSubmit.OnPressedColor = System.Drawing.Color.Black;
-            this.btnSubmit.Radius = 7;
-            this.btnSubmit.Size = new System.Drawing.Size(137, 35);
-            this.btnSubmit.TabIndex = 89;
-            this.btnSubmit.Text = "Process Payment";
-            this.btnSubmit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btnSubmit.Click += new System.EventHandler(this.BtnSubmit_Click);
             // 
             // lblTitle
             // 
@@ -614,6 +509,111 @@
             this.printReport.RowDefaultBackgroudColor = System.Drawing.Color.White;
             this.printReport.RowDefaultFontColor = System.Drawing.SystemColors.ControlText;
             this.printReport.RowDefaultGridColor = System.Drawing.SystemColors.ControlText;
+            // 
+            // btnPrintReceipt
+            // 
+            this.btnPrintReceipt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnPrintReceipt.AnimationHoverSpeed = 0.07F;
+            this.btnPrintReceipt.AnimationSpeed = 0.03F;
+            this.btnPrintReceipt.BackColor = System.Drawing.Color.Transparent;
+            this.btnPrintReceipt.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.btnPrintReceipt.BorderColor = System.Drawing.Color.Black;
+            this.btnPrintReceipt.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.btnPrintReceipt.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnPrintReceipt.CheckedForeColor = System.Drawing.Color.White;
+            this.btnPrintReceipt.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnPrintReceipt.CheckedImage")));
+            this.btnPrintReceipt.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnPrintReceipt.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnPrintReceipt.FocusedColor = System.Drawing.Color.Empty;
+            this.btnPrintReceipt.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.btnPrintReceipt.ForeColor = System.Drawing.Color.White;
+            this.btnPrintReceipt.Image = null;
+            this.btnPrintReceipt.ImageSize = new System.Drawing.Size(22, 22);
+            this.btnPrintReceipt.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnPrintReceipt.Location = new System.Drawing.Point(567, 487);
+            this.btnPrintReceipt.Name = "btnPrintReceipt";
+            this.btnPrintReceipt.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            this.btnPrintReceipt.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnPrintReceipt.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnPrintReceipt.OnHoverImage = null;
+            this.btnPrintReceipt.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnPrintReceipt.OnPressedColor = System.Drawing.Color.Black;
+            this.btnPrintReceipt.Radius = 7;
+            this.btnPrintReceipt.Size = new System.Drawing.Size(123, 35);
+            this.btnPrintReceipt.TabIndex = 98;
+            this.btnPrintReceipt.Text = "Generate Receipt";
+            this.btnPrintReceipt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnPrintReceipt.Click += new System.EventHandler(this.BtnPrintReceipt_Click);
+            // 
+            // btnPrintInvoice
+            // 
+            this.btnPrintInvoice.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnPrintInvoice.AnimationHoverSpeed = 0.07F;
+            this.btnPrintInvoice.AnimationSpeed = 0.03F;
+            this.btnPrintInvoice.BackColor = System.Drawing.Color.Transparent;
+            this.btnPrintInvoice.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.btnPrintInvoice.BorderColor = System.Drawing.Color.Black;
+            this.btnPrintInvoice.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.btnPrintInvoice.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnPrintInvoice.CheckedForeColor = System.Drawing.Color.White;
+            this.btnPrintInvoice.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnPrintInvoice.CheckedImage")));
+            this.btnPrintInvoice.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnPrintInvoice.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnPrintInvoice.FocusedColor = System.Drawing.Color.Empty;
+            this.btnPrintInvoice.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.btnPrintInvoice.ForeColor = System.Drawing.Color.White;
+            this.btnPrintInvoice.Image = null;
+            this.btnPrintInvoice.ImageSize = new System.Drawing.Size(22, 22);
+            this.btnPrintInvoice.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnPrintInvoice.Location = new System.Drawing.Point(457, 487);
+            this.btnPrintInvoice.Name = "btnPrintInvoice";
+            this.btnPrintInvoice.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            this.btnPrintInvoice.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnPrintInvoice.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnPrintInvoice.OnHoverImage = null;
+            this.btnPrintInvoice.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnPrintInvoice.OnPressedColor = System.Drawing.Color.Black;
+            this.btnPrintInvoice.Radius = 7;
+            this.btnPrintInvoice.Size = new System.Drawing.Size(104, 35);
+            this.btnPrintInvoice.TabIndex = 94;
+            this.btnPrintInvoice.Text = "Print Invoice";
+            this.btnPrintInvoice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnPrintInvoice.Click += new System.EventHandler(this.BtnPrintInvoice_Click);
+            // 
+            // btnSubmit
+            // 
+            this.btnSubmit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSubmit.AnimationHoverSpeed = 0.07F;
+            this.btnSubmit.AnimationSpeed = 0.03F;
+            this.btnSubmit.BackColor = System.Drawing.Color.Transparent;
+            this.btnSubmit.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.btnSubmit.BorderColor = System.Drawing.Color.Black;
+            this.btnSubmit.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.btnSubmit.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnSubmit.CheckedForeColor = System.Drawing.Color.White;
+            this.btnSubmit.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnSubmit.CheckedImage")));
+            this.btnSubmit.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnSubmit.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnSubmit.FocusedColor = System.Drawing.Color.Empty;
+            this.btnSubmit.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.btnSubmit.ForeColor = System.Drawing.Color.White;
+            this.btnSubmit.Image = null;
+            this.btnSubmit.ImageSize = new System.Drawing.Size(22, 22);
+            this.btnSubmit.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnSubmit.Location = new System.Drawing.Point(696, 487);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(35)))), ((int)(((byte)(85)))));
+            this.btnSubmit.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnSubmit.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnSubmit.OnHoverImage = null;
+            this.btnSubmit.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnSubmit.OnPressedColor = System.Drawing.Color.Black;
+            this.btnSubmit.Radius = 7;
+            this.btnSubmit.Size = new System.Drawing.Size(137, 35);
+            this.btnSubmit.TabIndex = 89;
+            this.btnSubmit.Text = "Process Payment";
+            this.btnSubmit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnSubmit.Click += new System.EventHandler(this.BtnSubmit_Click);
             // 
             // popupNotifier
             // 

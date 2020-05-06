@@ -190,7 +190,7 @@
             // 
             // studentImage
             // 
-            this.studentImage.Location = new System.Drawing.Point(94, 117);
+            this.studentImage.Location = new System.Drawing.Point(94, 118);
             this.studentImage.Name = "studentImage";
             this.studentImage.Size = new System.Drawing.Size(125, 125);
             this.studentImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -207,7 +207,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
+            this.panel4.BackColor = System.Drawing.Color.White;
             this.panel4.Controls.Add(this.lblContact);
             this.panel4.Controls.Add(this.lblRelationship);
             this.panel4.Controls.Add(this.lblName);
@@ -221,7 +221,7 @@
             // 
             this.lblContact.AutoSize = true;
             this.lblContact.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContact.ForeColor = System.Drawing.Color.White;
+            this.lblContact.ForeColor = System.Drawing.Color.Black;
             this.lblContact.Location = new System.Drawing.Point(4, 59);
             this.lblContact.Name = "lblContact";
             this.lblContact.Size = new System.Drawing.Size(0, 13);
@@ -231,7 +231,7 @@
             // 
             this.lblRelationship.AutoSize = true;
             this.lblRelationship.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRelationship.ForeColor = System.Drawing.Color.White;
+            this.lblRelationship.ForeColor = System.Drawing.Color.Black;
             this.lblRelationship.Location = new System.Drawing.Point(3, 41);
             this.lblRelationship.Name = "lblRelationship";
             this.lblRelationship.Size = new System.Drawing.Size(0, 13);
@@ -241,7 +241,7 @@
             // 
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.ForeColor = System.Drawing.Color.White;
+            this.lblName.ForeColor = System.Drawing.Color.Black;
             this.lblName.Location = new System.Drawing.Point(4, 5);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(0, 13);
@@ -251,7 +251,7 @@
             // 
             this.lblAddress.AutoSize = true;
             this.lblAddress.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAddress.ForeColor = System.Drawing.Color.White;
+            this.lblAddress.ForeColor = System.Drawing.Color.Black;
             this.lblAddress.Location = new System.Drawing.Point(4, 23);
             this.lblAddress.Name = "lblAddress";
             this.lblAddress.Size = new System.Drawing.Size(0, 13);
@@ -259,7 +259,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
+            this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Controls.Add(this.lblCourse);
             this.panel3.Controls.Add(this.lblStudentName);
             this.panel3.Location = new System.Drawing.Point(28, 255);
@@ -270,7 +270,7 @@
             // lblCourse
             // 
             this.lblCourse.Font = new System.Drawing.Font("Segoe UI", 9.55F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCourse.ForeColor = System.Drawing.Color.White;
+            this.lblCourse.ForeColor = System.Drawing.Color.Black;
             this.lblCourse.Location = new System.Drawing.Point(3, 33);
             this.lblCourse.Name = "lblCourse";
             this.lblCourse.Size = new System.Drawing.Size(251, 30);
@@ -281,7 +281,7 @@
             // lblStudentName
             // 
             this.lblStudentName.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStudentName.ForeColor = System.Drawing.Color.White;
+            this.lblStudentName.ForeColor = System.Drawing.Color.Black;
             this.lblStudentName.Location = new System.Drawing.Point(3, 3);
             this.lblStudentName.Name = "lblStudentName";
             this.lblStudentName.Size = new System.Drawing.Size(251, 30);
@@ -291,7 +291,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(58)))));
+            this.panel5.BackColor = System.Drawing.Color.White;
             this.panel5.Controls.Add(this.lblValidity);
             this.panel5.Controls.Add(this.lblContactNo);
             this.panel5.Controls.Add(this.lblStudentNum);
@@ -304,7 +304,7 @@
             // 
             this.lblValidity.AutoSize = true;
             this.lblValidity.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblValidity.ForeColor = System.Drawing.Color.White;
+            this.lblValidity.ForeColor = System.Drawing.Color.Black;
             this.lblValidity.Location = new System.Drawing.Point(3, 44);
             this.lblValidity.Name = "lblValidity";
             this.lblValidity.Size = new System.Drawing.Size(0, 13);
@@ -314,7 +314,7 @@
             // 
             this.lblContactNo.AutoSize = true;
             this.lblContactNo.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblContactNo.ForeColor = System.Drawing.Color.White;
+            this.lblContactNo.ForeColor = System.Drawing.Color.Black;
             this.lblContactNo.Location = new System.Drawing.Point(4, 26);
             this.lblContactNo.Name = "lblContactNo";
             this.lblContactNo.Size = new System.Drawing.Size(73, 13);
@@ -325,7 +325,7 @@
             // 
             this.lblStudentNum.AutoSize = true;
             this.lblStudentNum.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStudentNum.ForeColor = System.Drawing.Color.White;
+            this.lblStudentNum.ForeColor = System.Drawing.Color.Black;
             this.lblStudentNum.Location = new System.Drawing.Point(4, 8);
             this.lblStudentNum.Name = "lblStudentNum";
             this.lblStudentNum.Size = new System.Drawing.Size(75, 13);
